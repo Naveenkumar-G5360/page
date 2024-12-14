@@ -1,0 +1,307 @@
+/* Add this to your port.css */
+body {
+    background-color: #2e2a2a; /* Dark background */
+    color: white; /* Text color for better contrast */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Aligns items to the ends */
+    padding: 10px;
+}
+
+.portfolio-name {
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.nav-buttons {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Aligns buttons in a row */
+}
+
+.nav-buttons li {
+    margin-left: 20px; /* Space between buttons */
+}
+
+.nav-buttons a {
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+}
+
+    .nav-buttons li {
+        display: inline-block; /* Make list items inline */
+        margin: 0 10px; /* Add some spacing */
+    }
+    .nav-buttons a {
+        text-decoration: none; /* Remove underline */
+        padding: 10px 20px; /* Add padding for button shape */
+        background-color: #007BFF; /* Initial button color */
+        color: white; /* Text color */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s; /* Smooth transition */
+    }
+    .nav-buttons a:hover,
+    .nav-buttons a:focus {
+        background-color: #0056b3; /* Color on hover */
+    }
+/* Add this to your port.css */
+body {
+    background-color: #2e2a2a; /* Dark background */
+    color: white; /* Text color for better contrast */
+}
+
+/* ... existing styles ... */
+
+.footer {
+    background-color: #1a1a1a; /* Darker background for footer */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding for spacing */
+    position: relative; /* Positioning */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
+
+html, body {
+    height: 100%; /* Ensure the body takes full height */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.footer {
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+/* Add this to your port.css */
+.text-image-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: left; /* Center items vertically */
+    justify-content: left; /* Center items horizontally */
+    text-align: left; /* Align text to the left */
+    margin: 20px 0;
+}
+
+.centered-text {
+    margin-right: 50px; /* Space between text and image */
+    max-width: 100%; /* Limit the width of the text */
+}
+
+.round-image {
+    width: 250px; /* Set the width of the image (increase size) */
+    height: 250px; /* Set the height of the image (increase size) */
+    border-radius: 100%; /* Make the image round */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+/* Add this to your port.css */
+.social-media {
+    display: flex; /* Use flexbox for layout */
+    justify-content: left; /* Center the icons horizontally */
+    margin-top: 20px; /* Space above the social media icons */
+}
+
+.social-media a {
+    display: inline-flex; /* Make links inline-flex for better alignment */
+    justify-content: center; /* Center the icon within the link */
+    align-items: center; /* Center the icon vertically */
+    width: 50px; /* Set width for the icon container */
+    height: 50px; /* Set height for the icon container */
+    margin: 0 10px; /* Space between icons */
+    background: #007BFF; /* Background color for the icon container */
+    border-radius: 50%; /* Make the container round */
+    color: white; /* Icon color */
+    text-decoration: none; /* Remove underline */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-media a:hover {
+    background: #0056b3; /* Darker background on hover */
+}
+
+/* Add this to your port.css */
+.btn {
+    display: inline-block; /* Make it an inline block */
+    padding: 10px 20px; /* Add padding for size */
+    background-color: #007BFF; /* Attractive blue background */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    font-size: 16px; /* Font size */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+
+/* Add this to your port.css */
+.skills-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center cards */
+    width: 100%; /* Full width for the container */
+}
+
+.software-skills, .soft-skills {
+    width: 80%; /* Set width for each section */
+    max-width: 600px; /* Max width for larger screens */
+    background-color: #1a1a1a; /* Dark background for skills sections */
+    border: 2px solid #007BFF; /* Blue border to highlight */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding for spacing */
+    margin: 20px 0; /* Space between skills sections */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.software-skills:hover, .soft-skills:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow on hover */
+}
+
+.skills-section h2 {
+    color: #007BFF; /* Blue color for the section title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.skill-percentage {
+    font-weight: bold; /* Bold percentage text */
+    color: #007BFF; /* Blue color for percentage */
+    margin-left: 10px; /* Space between skill name and percentage */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    margin-bottom: 15px; /* Space between skill items */
+}
+
+.progress-bar {
+    background-color: #e0e0e0; /* Light gray background for the progress bar */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    height: 10px; /* Height of the progress bar */
+    margin-top: 5px; /* Space above the progress bar */
+}
+
+.progress {
+    height: 100%; /* Full height of the progress bar */
+    background-color: #007BFF; /* Attractive blue color for the progress */
+    border-radius: 5px; /* Rounded corners */
+    transition: width 0.5s; /* Smooth transition for width change */
+}
+
+/* Add this to your port.css */
+.projects-section {
+    margin: 40px 0; /* Add some margin for spacing */
+    text-align: left; /* Align text to the left */
+}
+
+.projects-section h2 {
+    font-size: 2em; /* Adjust font size as needed */
+    color: #333; /* Change color as needed */
+    margin-bottom: 20px; /* Space below the title */
+}
+/* Add this to your CSS file (port.css) */
+.projects-container {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    gap: 20px; /* Space between cards */
+}
+
+.project {
+    width: 100%; /* Ensure each project takes full width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visibility */
+    padding: 20px; /* Optional: Add padding for aesthetics */
+    border-radius: 8px; /* Optional: Rounded corners */
+    background-color: #fff; /* Optional: Background color */
+}
+
+.project:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Add this to your port.css */
+.projects-section {
+    margin: 40px 0; /* Add some margin for spacing */
+    text-align: left; /* Align text to the left */
+}
+
+
+/* Add this to your port.css */
+.project {
+    background-color: #2e2a2a; /* Dark background for the project */
+    color: white; /* Text color for better contrast */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space between projects */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+    border-left: 5px solid #007BFF; /* Blue accent on the left */
+}
+
+.project:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow on hover */
+}
+
+.technologies {
+    margin-top: 10px; /* Space above the technologies list */
+    font-style: italic; /* Italicize the technologies text */
+    color: #007BFF; /* Change technologies text color to blue */
+}
+
+/* Add this to your port.css */
+.github-link {
+    display: inline-flex; /* Make it inline-flex for better alignment */
+    align-items: center; /* Center the icon vertically */
+    margin-top: 10px; /* Space above the link */
+    color: #ffffff; /* White text color */
+    background-color: #333; /* Dark background for the link */
+    padding: 10px 15px; /* Padding for the link */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    text-decoration: none; /* Remove underline */
+}
+
+.github-link:hover {
+    background-color: #007BFF; /* Blue background on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.github-link i {
+    margin-right: 5px; /* Space between icon and text */
+    color: #ffffff; /* White color for the icon */
+}
+
+
+/* Add this to your port.css */
+.social-media {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the icons horizontally */
+    margin-top: 20px; /* Space above the social media icons */
+}
+
+.social-media a {
+    display: inline-flex; /* Make links inline-flex for better alignment */
+    justify-content: center; /* Center the icon within the link */
+    align-items: center; /* Center the icon vertically */
+    width: 50px; /* Set width for the icon container */
+    height: 50px; /* Set height for the icon container */
+    margin: 0 10px; /* Space between icons */
+    background: #007BFF; /* Background color for the icon container */
+    border-radius: 50%; /* Make the container round */
+    color: white; /* Icon color */
+    text-decoration: none; /* Remove underline */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-media a:hover {
+    background: #0056b3; /* Darker background on hover */
+}
